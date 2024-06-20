@@ -50,7 +50,8 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: space-evenlyf;
+  justify-content: space-evenly;
+
   gap: 15px;
 }
 
@@ -60,7 +61,6 @@
   padding: 30px 30px 8px;
 
   font-size: 28px;
- 
   font-weight: 700;
   font-style: bold;
   
@@ -72,7 +72,6 @@
   padding: 5px 30px 10px;
 
   font-size: 22px;
-
   font-weight: 400;
   font-style: normal;
 }
@@ -86,8 +85,10 @@
   padding: 10px 30px ;
 }
 .card-img{
+
   padding-top: 15px;
   margin-left: auto;
+  
   width: 190px;
 }
 .card-img img{
