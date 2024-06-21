@@ -2,18 +2,23 @@
   margin: 0px ;
   padding: 0px;
 }
+body{
+  background-color: #d8dae2;
+}
 .grid-wrapper{
   display: grid;
   grid-template-columns: repeat(3,minmax(100px,420px));
   justify-content: center;
   grid-gap: 15px;
   margin-top: 150px;
+  
 }
 .grid-cards{
 
   height: 420px;
-  border: 1px solid black;
+  border: 2px solid rgba(0, 0, 0, .1);
   border-radius: 15px;
+  background-color: #fff;
 }
 .grid-content{
   height: 50%;
@@ -100,17 +105,17 @@ padding: 10px 30px ;
   font-style: bold;
   }
   .grid-img img{
-    padding-top: 80px;
-    height: 150px;
-    
+    padding-top: 48px;
+    height: 205px;
+    width: 150px;
   }
 }
 @media (max-width:527px){
 
   .grid-img img{
-    padding-top: 0px;
+    padding-top: 50px;
     width: 150px;
-    height: 230px;
+    height: 180px;
     
   }
 }
